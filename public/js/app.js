@@ -241,8 +241,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "about_me"
+  name: "about_me",
+  methods: {
+    onContactClickListener: function onContactClickListener() {
+      this.$refs.linkContact.click();
+    }
+  }
 });
 
 /***/ }),
@@ -256,7 +264,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -517,7 +524,7 @@ __webpack_require__.r(__webpack_exports__);
         icon: 'mdi-briefcase',
         title: 'Instituto Tecnológico de Toluca',
         date: 'Ene 2014 - Jun 2019',
-        name: 'Ingeniería de sistemas computacionales'
+        name: 'Ingeniería en sistemas computacionales'
       }, {
         color: 'deep-purple darken-1',
         icon: 'mdi-briefcase',
@@ -634,6 +641,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -1980,7 +1990,10 @@ var render = function() {
             [
               _c(
                 "v-btn",
-                { staticClass: "ma-2", attrs: { color: "primary", block: "" } },
+                {
+                  staticClass: "ma-2",
+                  attrs: { color: "primary", block: "", disabled: "" }
+                },
                 [
                   _c("v-icon", { attrs: { left: "" } }, [
                     _vm._v("cloud_download")
@@ -2002,10 +2015,31 @@ var render = function() {
             [
               _c(
                 "v-btn",
-                { staticClass: "ma-2", attrs: { color: "primary", block: "" } },
+                {
+                  staticClass: "ma-2",
+                  attrs: { color: "primary", block: "" },
+                  on: { click: _vm.onContactClickListener }
+                },
                 [
-                  _c("v-icon", { attrs: { left: "" } }, [_vm._v("call")]),
-                  _vm._v("\n                CONTACTAR\n            ")
+                  _c("v-icon", { attrs: { left: "" } }, [
+                    _vm._v("mdi-whatsapp")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      ref: "linkContact",
+                      staticStyle: {
+                        "text-decoration": "none",
+                        color: "#FFFFFF"
+                      },
+                      attrs: {
+                        target: "_blank",
+                        href: "https://api.whatsapp.com/send?phone=7223731006"
+                      }
+                    },
+                    [_vm._v("CONTACTAR")]
+                  )
                 ],
                 1
               )
@@ -2265,14 +2299,10 @@ var render = function() {
                                     {
                                       attrs: {
                                         href:
-                                          "https://github.com/maiktmp/HabitsReminder"
+                                          "https://github.com/maiktmp/cvMaik"
                                       }
                                     },
-                                    [
-                                      _vm._v(
-                                        " Para ver el proyecto clic\n                                    aquí "
-                                      )
-                                    ]
+                                    [_vm._v(" Para ver el proyecto clic aquí ")]
                                   )
                                 ]
                               )
@@ -2707,10 +2737,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("v-app-bar", {
-    staticClass: "v-toolbar",
-    attrs: { app: "", "clipped-left": "" }
-  })
+  return _c("div")
 }
 var staticRenderFns = []
 render._withStripped = true

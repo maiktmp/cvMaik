@@ -48,7 +48,7 @@ export default {
                     icon: 'mdi-briefcase',
                     title: 'Instituto Tecnológico de Toluca',
                     date: 'Ene 2014 - Jun 2019',
-                    name: 'Ingeniería de sistemas computacionales'
+                    name: 'Ingeniería en sistemas computacionales'
                 },
                 {
                     color: 'deep-purple darken-1',

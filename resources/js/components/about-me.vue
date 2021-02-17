@@ -126,7 +126,7 @@
                 class="text-center ma-auto"
                 cols="12"
                 sm="4">
-                <v-btn color="primary" class="ma-2" block>
+                <v-btn color="primary" class="ma-2" block disabled>
                     <v-icon left>cloud_download</v-icon>
                     DESCARGAR CV
                 </v-btn>
@@ -135,9 +135,12 @@
                 class="text-center ma-auto"
                 cols="12"
                 sm="4">
-                <v-btn color="primary" class="ma-2" block>
-                    <v-icon left>call</v-icon>
-                    CONTACTAR
+                <v-btn color="primary" class="ma-2" block @click="onContactClickListener">
+                    <v-icon left>mdi-whatsapp</v-icon>
+                    <a style="text-decoration: none; color: #FFFFFF"
+                       ref="linkContact"
+                       target="_blank"
+                       href="https://api.whatsapp.com/send?phone=7223731006">CONTACTAR</a>
                 </v-btn>
             </v-col>
         </v-row>
@@ -146,7 +149,12 @@
 
 <script>
 export default {
-    name: "about_me"
+    name: "about_me",
+    methods: {
+        onContactClickListener() {
+            this.$refs.linkContact.click();
+        }
+    }
 }
 </script>
 
