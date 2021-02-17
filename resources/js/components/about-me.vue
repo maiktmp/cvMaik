@@ -1,9 +1,9 @@
 <template>
     <div>
         <h3 class="text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3">
-            Hola mi nombre es Miguel Colin Flores, soy desarrollador de software
+            Hola, mi nombre es Miguel Colin Flores, soy desarrollador de software
             Computacionales, actualmente estor por cumplir 3 años de experiencia en desarrollo web y móvil
-            centrandome en el dessarollo de android con habilidades en :
+            centrándome  en el desarrollo de Android con habilidades en :
         </h3>
         <v-row no-gutters class="ml-3 mr-3">
             <v-col cols="6" sm="3">
@@ -33,7 +33,7 @@
         </v-row>
 
         <h3 class="text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3">
-            Además de emplear tecnologías web como :
+            Además de emplear tecnologías web como:
         </h3>
         <v-row no-gutters class="ml-3 mr-3">
             <v-col cols="6" sm="3">
@@ -52,7 +52,7 @@
             </v-col>
         </v-row>
         <h3 class="text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3">
-            Hablando un poco de mi, soy una persona que le gusta aprender tecnologias nuevas y
+            Hablando un poco de mí, soy una persona que le gusta aprender tecnologías nuevas y
             se apasiona por el desarrollo de sistemas.
             <br>
             Algunas de las aptitudes y valores que me representan son:

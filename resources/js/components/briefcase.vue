@@ -14,7 +14,7 @@
                             <v-row>
                                 <v-col cols="12">
                                     <h4>
-                                        Es una aplicación android para crear tareas y recordatorios algunas
+                                        Es una aplicación Android para crear tareas y recordatorios algunas
                                         características
                                         importantes
                                         son:
@@ -26,7 +26,7 @@
                                             <li>La librería de diseño empleada es MaterialIO</li>
                                             <li>Hago uso de Dagger</li>
                                             <li>Hago uso de Fragments y DialogFragment</li>
-                                            <li>Se empleo Kotlin como lenguaje principal</li>
+                                            <li>Se empleó Kotlin como lenguaje principal</li>
                                         </ul>
                                     </h4>
                                     <h5 class="red--text">*Aún no esta terminado en mis tiempos libres trabajo en

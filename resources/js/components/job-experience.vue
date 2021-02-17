@@ -56,7 +56,7 @@ export default {
                     cadres: [
                         {
                             name: 'Desarrollador Web Jr.',
-                            desc: 'En base a requerimentos otorgador por el Departamento de Desarrollo de Sistemas ' +
+                            desc: 'Con base en requerimientos otorgador por el Departamento de Desarrollo de Sistemas ' +
                                 ' desarrollaba pequeños sistemas web internos donde empleaba tecnologías como Java, Js, Html, CSS. ',
                         }
                     ]
@@ -69,7 +69,7 @@ export default {
                     cadres: [
                         {
                             name: 'Desarrollador Web JR',
-                            desc: 'Junto a el responsable de proyecto creaba bases de datos asi como un proyecto web donde los clientes pudieran administrar su información empleando tecnologías como: ' +
+                            desc: 'Junto al responsable de proyecto creaba bases de datos así como un proyecto web donde los clientes pudieran administrar su información empleando tecnologías como: ' +
                                 'Css, Html ,JS, Laravel, MySQL',
                         },
                         {
@@ -79,18 +79,18 @@ export default {
                         },
                         {
                             name: 'Desarrollador JR Móvil-Android',
-                            desc: 'Junto a el responsable de proyecto desarrollaba aplicaciones  android empleando:' +
+                            desc: 'Junto al responsable de proyecto desarrollaba aplicaciones Android empleando:' +
                                 'Activities, Room, Retrofit, MVP, Layouts',
                         },
                         {
                             name: 'Desarrollador Mid Móvil-Android',
-                            desc: 'Individualmente desarrollaba aplicaciones  android dónde creaba API, implemente nuevas librerías, un nuevo lenguaje y una nueva arquitectura, trabaje con: ' +
+                            desc: 'Individualmente desarrollaba aplicaciones  Android dónde creaba API, implemente nuevas librerías, un nuevo lenguaje y una nueva arquitectura, trabaje con: ' +
                                 'Material IO, DataBinding, Fragmets, Firebase, RxJava, Kotlin, CustomViews',
                         },
                         {
                             name: 'Desarrollador Flat',
-                            desc: 'Puesto en el cual era responsable del desarrollo de un sistema web asi como de su aplicación en Android, asi como lider de equipo en android donde ' +
-                                'supervisaba y guiando mis compañeros menos experimentados',
+                            desc: 'Puesto en el cual era responsable del desarrollo de un sistema web así como de su aplicación en Android, así como líder ' +
+                                  'de equipo en Android donde supervisaba y guiando mis compañeros menos experimentados',
                         }
                     ]
                 },

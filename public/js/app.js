@@ -602,7 +602,7 @@ __webpack_require__.r(__webpack_exports__);
         date: 'Ene 2017 - Jun 2018',
         cadres: [{
           name: 'Desarrollador Web Jr.',
-          desc: 'En base a requerimentos otorgador por el Departamento de Desarrollo de Sistemas ' + ' desarrollaba pequeños sistemas web internos donde empleaba tecnologías como Java, Js, Html, CSS. '
+          desc: 'Con base en requerimientos otorgador por el Departamento de Desarrollo de Sistemas ' + ' desarrollaba pequeños sistemas web internos donde empleaba tecnologías como Java, Js, Html, CSS. '
         }]
       }, {
         color: 'amber accent-4',
@@ -611,19 +611,19 @@ __webpack_require__.r(__webpack_exports__);
         date: 'May 2018 -  Feb 2021',
         cadres: [{
           name: 'Desarrollador Web JR',
-          desc: 'Junto a el responsable de proyecto creaba bases de datos asi como un proyecto web donde los clientes pudieran administrar su información empleando tecnologías como: ' + 'Css, Html ,JS, Laravel, MySQL'
+          desc: 'Junto al responsable de proyecto creaba bases de datos así como un proyecto web donde los clientes pudieran administrar su información empleando tecnologías como: ' + 'Css, Html ,JS, Laravel, MySQL'
         }, {
           name: 'Desarrollador Web Mid',
           desc: 'De manera individual desarrollaba sistemas web ERP desde la creación de la base de datos hasta la vistas web, empleando tecnologías como: ' + 'Less, Laravel, Vue, React, Docker, CentOS'
         }, {
           name: 'Desarrollador JR Móvil-Android',
-          desc: 'Junto a el responsable de proyecto desarrollaba aplicaciones  android empleando:' + 'Activities, Room, Retrofit, MVP, Layouts'
+          desc: 'Junto al responsable de proyecto desarrollaba aplicaciones Android empleando:' + 'Activities, Room, Retrofit, MVP, Layouts'
         }, {
           name: 'Desarrollador Mid Móvil-Android',
-          desc: 'Individualmente desarrollaba aplicaciones  android dónde creaba API, implemente nuevas librerías, un nuevo lenguaje y una nueva arquitectura, trabaje con: ' + 'Material IO, DataBinding, Fragmets, Firebase, RxJava, Kotlin, CustomViews'
+          desc: 'Individualmente desarrollaba aplicaciones  Android dónde creaba API, implemente nuevas librerías, un nuevo lenguaje y una nueva arquitectura, trabaje con: ' + 'Material IO, DataBinding, Fragmets, Firebase, RxJava, Kotlin, CustomViews'
         }, {
           name: 'Desarrollador Flat',
-          desc: 'Puesto en el cual era responsable del desarrollo de un sistema web asi como de su aplicación en Android, asi como lider de equipo en android donde ' + 'supervisaba y guiando mis compañeros menos experimentados'
+          desc: 'Puesto en el cual era responsable del desarrollo de un sistema web así como de su aplicación en Android, así como líder ' + 'de equipo en Android donde supervisaba y guiando mis compañeros menos experimentados'
         }]
       }]
     };
@@ -1770,7 +1770,7 @@ var render = function() {
         { staticClass: "text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3" },
         [
           _vm._v(
-            "\n        Hola mi nombre es Miguel Colin Flores, soy desarrollador de software\n        Computacionales, actualmente estor por cumplir 3 años de experiencia en desarrollo web y móvil\n        centrandome en el dessarollo de android con habilidades en :\n    "
+            "\n        Hola, mi nombre es Miguel Colin Flores, soy desarrollador de software\n        Computacionales, actualmente estor por cumplir 3 años de experiencia en desarrollo web y móvil\n        centrándome  en el desarrollo de Android con habilidades en :\n    "
           )
         ]
       ),
@@ -1825,7 +1825,7 @@ var render = function() {
       _c(
         "h3",
         { staticClass: "text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3" },
-        [_vm._v("\n        Además de emplear tecnologías web como :\n    ")]
+        [_vm._v("\n        Además de emplear tecnologías web como:\n    ")]
       ),
       _vm._v(" "),
       _c(
@@ -2063,7 +2063,7 @@ var staticRenderFns = [
       { staticClass: "text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3" },
       [
         _vm._v(
-          "\n        Hablando un poco de mi, soy una persona que le gusta aprender tecnologias nuevas y\n        se apasiona por el desarrollo de sistemas.\n        "
+          "\n        Hablando un poco de mí, soy una persona que le gusta aprender tecnologías nuevas y\n        se apasiona por el desarrollo de sistemas.\n        "
         ),
         _c("br"),
         _vm._v(
@@ -2136,7 +2136,7 @@ var render = function() {
                               _c("v-col", { attrs: { cols: "12" } }, [
                                 _c("h4", [
                                   _vm._v(
-                                    "\n                                    Es una aplicación android para crear tareas y recordatorios algunas\n                                    características\n                                    importantes\n                                    son:\n                                    "
+                                    "\n                                    Es una aplicación Android para crear tareas y recordatorios algunas\n                                    características\n                                    importantes\n                                    son:\n                                    "
                                   ),
                                   _c("ul", [
                                     _c("li", [
@@ -2177,7 +2177,7 @@ var render = function() {
                                     _vm._v(" "),
                                     _c("li", [
                                       _vm._v(
-                                        "Se empleo Kotlin como lenguaje principal"
+                                        "Se empleó Kotlin como lenguaje principal"
                                       )
                                     ])
                                   ])
