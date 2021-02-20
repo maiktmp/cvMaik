@@ -55,9 +55,7 @@
                             </v-tabs-items>
                         </v-col>
                     </v-row>
-
                 </v-container>
-
             </v-main>
         </v-app>
     </v-app>

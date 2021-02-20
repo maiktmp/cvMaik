@@ -246,6 +246,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "about_me",
+  mounted: function mounted() {},
   methods: {
     onContactClickListener: function onContactClickListener() {
       this.$refs.linkContact.click();
@@ -350,6 +351,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "briefcase",
+  mounted: function mounted() {},
   data: function data() {
     return {
       habitsImages: ["img/habits/img-habits-reminder-login.png", "img/habits/img-habits-reminder-categories-1.png", "img/habits/img-habits-reminder-categories-2.png", "img/habits/img-habits-reminder-categories-3.png", "img/habits/img-habits-reminder-categories-4.png"]
@@ -374,8 +376,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
 //
 //
 //
@@ -516,6 +516,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "education",
+  mounted: function mounted() {},
   data: function data() {
     return {
       date: new Date(),
@@ -592,6 +593,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "job-experience",
+  mounted: function mounted() {},
   data: function data() {
     return {
       date: new Date(),
@@ -654,9 +656,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  },
+  mounted: function mounted() {},
   data: function data() {
     return {};
   }

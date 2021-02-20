@@ -39,6 +39,9 @@
 <script>
 export default {
     name: "education",
+    mounted() {
+
+    },
     data: () => (
         {
             date: new Date(),

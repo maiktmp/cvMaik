@@ -150,6 +150,9 @@
 <script>
 export default {
     name: "about_me",
+    mounted() {
+
+    },
     methods: {
         onContactClickListener() {
             this.$refs.linkContact.click();

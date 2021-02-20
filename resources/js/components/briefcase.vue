@@ -85,6 +85,9 @@
 <script>
 export default {
     name: "briefcase",
+    mounted() {
+
+    },
     data: () => ({
         habitsImages: [
             "img/habits/img-habits-reminder-login.png",

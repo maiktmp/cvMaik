@@ -44,6 +44,9 @@
 <script>
 export default {
     name: "job-experience",
+    mounted() {
+
+    },
     data: () => (
         {
             date: new Date(),
@@ -90,7 +93,7 @@ export default {
                         {
                             name: 'Desarrollador Flat',
                             desc: 'Puesto en el cual era responsable del desarrollo de un sistema web así como de su aplicación en Android, así como líder ' +
-                                  'de equipo en Android donde supervisaba y guiando mis compañeros menos experimentados',
+                                'de equipo en Android donde supervisaba y guiando mis compañeros menos experimentados',
                         }
                     ]
                 },
