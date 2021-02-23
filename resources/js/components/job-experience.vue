@@ -59,7 +59,7 @@ export default {
                     cadres: [
                         {
                             name: 'Desarrollador Web Jr.',
-                            desc: 'Con base en requerimientos otorgador por el Departamento de Desarrollo de Sistemas ' +
+                            desc: 'Con base en requerimientos otorgados por el Departamento de Desarrollo de Sistemas ' +
                                 ' desarrollaba pequeños sistemas web internos donde empleaba tecnologías como Java, Js, Html, CSS. ',
                         }
                     ]

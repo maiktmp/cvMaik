@@ -2,7 +2,7 @@
     <div>
         <h3 class="text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3">
             Hola, mi nombre es Miguel Colin Flores, soy desarrollador de software
-            Computacionales, actualmente estor por cumplir 3 años de experiencia en desarrollo web y móvil
+            ,actualmente estor por cumplir 3 años de experiencia en desarrollo web y móvil
             centrándome en el desarrollo de Android con habilidades en :
         </h3>
         <v-row no-gutters class="ml-3 mr-3">
