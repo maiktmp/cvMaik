@@ -132,7 +132,7 @@
                        ref="linkDownloadCv"
                        target="_blank"
                        style="text-decoration: none; color: #FFFFFF">
-                        DESCARGAR
+                        DESCARGAR C.V.
                     </a>
                 </v-btn>
             </v-col>
