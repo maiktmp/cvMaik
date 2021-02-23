@@ -3,7 +3,7 @@
         <h3 class="text-justufy color-grey-darken mt-8 ml-3 mr-3 mb-3">
             Hola, mi nombre es Miguel Colin Flores, soy desarrollador de software
             Computacionales, actualmente estor por cumplir 3 años de experiencia en desarrollo web y móvil
-            centrándome  en el desarrollo de Android con habilidades en :
+            centrándome en el desarrollo de Android con habilidades en :
         </h3>
         <v-row no-gutters class="ml-3 mr-3">
             <v-col cols="6" sm="3">
@@ -126,9 +126,14 @@
                 class="text-center ma-auto"
                 cols="12"
                 sm="4">
-                <v-btn color="primary" class="ma-2" block disabled>
+                <v-btn color="primary" class="ma-2" block @click="onDownloadCvClickListener">
                     <v-icon left>cloud_download</v-icon>
-                    DESCARGAR CV
+                    <a :href="asset('docs/cv-miguel.pdf')"
+                       ref="linkDownloadCv"
+                       target="_blank"
+                       style="text-decoration: none; color: #FFFFFF">
+                        DESCARGAR
+                    </a>
                 </v-btn>
             </v-col>
             <v-col
@@ -140,7 +145,7 @@
                     <a style="text-decoration: none; color: #FFFFFF"
                        ref="linkContact"
                        target="_blank"
-                       href="https://api.whatsapp.com/send?phone=7223731006">CONTACTAR</a>
+                       href="https://api.whatsapp.com/send?phone=527223731006">CONTACTAR</a>
                 </v-btn>
             </v-col>
         </v-row>
@@ -156,6 +161,13 @@ export default {
     methods: {
         onContactClickListener() {
             this.$refs.linkContact.click();
+        },
+        onDownloadCvClickListener() {
+            this.$refs.linkDownloadCv.click();
+        },
+        asset(url) {
+            console.log(`${window._asset}${url}`)
+            return `${window._asset}${url}`
         }
     }
 }
